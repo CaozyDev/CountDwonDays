@@ -1,0 +1,26 @@
+﻿<Window x:Class="CountDownDays.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" AllowsTransparency="True" ShowInTaskbar="False" ResizeMode="NoResize"
+        Title="MainWindow" Height="500" Width="650" Background="Transparent" WindowStyle="None" Loaded="Window_Loaded">
+
+    <Border>
+        <Canvas>
+
+            <Border Width="17" Height="17"  Background="White" Opacity="0.4" CornerRadius="8"
+                    MouseLeftButtonUp="ExitEvent" Canvas.Right="10" Canvas.Top="10"/>
+
+            <TextBlock Name="TitleTextBlk" Width="650" Height="90" Canvas.Top="30" FontFamily="{StaticResource AliPuHuiTi}"
+                       Text="Target" FontSize="30" TextAlignment="Center" Foreground="White">
+            </TextBlock>
+            <TextBlock Name="DaysTextBlk" Width="650" Height="380" Canvas.Top="90" 
+                       FontFamily="{StaticResource AliPuHuiTi}" Text="Days" FontSize="200" Foreground="White"
+                       TextAlignment="Center" FontStretch="Medium" >
+
+            </TextBlock>
+        </Canvas>
+
+    </Border>
+</Window>
