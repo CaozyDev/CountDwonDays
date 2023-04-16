@@ -1,8 +1,8 @@
-Big
+Normal
 White
 RightTop
-2023/6/18
-会考倒计时
+2024/2/10
+春节倒计时
 
 注：
 第一行为字体大小属性。Min最小，Normal正常，Big为大，Max特大。
