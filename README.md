@@ -15,10 +15,12 @@
 （2）Black			黑色
 ### 3.	显示位置
 配置文件第三行的英语单词用以指定窗体的显示位置。
-（1）LeftTop		左上
-（2）RightTop		右上
+（1）LeftTop		  左上
+（2）RightTop		  右上
 （3）RightBottom	右下
-（4）LeftBottom	左下
+（4）LeftBottom 	左下
+（5）Center       屏幕中心
+（6）CenterTop    中上
 ### 4.	目标日期
 配置文件第四行的字符用以指定目标日期。
 格式为“yyyy/MM/dd”，如“2025/01/01”。
