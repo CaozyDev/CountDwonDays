@@ -7,7 +7,7 @@ RightTop
 注：
 第一行为字体大小属性。Min最小，Normal正常，Big为大，Max特大。
 第二行为字体颜色属性。Black黑色，White白色。
-第三行为窗体显示位置。LeftTop左上，RightTop右上，RightBottom右下，LeftBottom左下
+第三行为窗体显示位置。LeftTop左上，RightTop右上，RightBottom右下，LeftBottom左下，Center屏幕中心，CenterTop中上
 第四行为目标日期。格式为“yyyy/MM/dd”
 第五行为目标日的名称。可以任意指定，行首的行末的空格会被忽略。
 
