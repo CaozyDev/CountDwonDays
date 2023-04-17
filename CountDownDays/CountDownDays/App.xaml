@@ -1,0 +1,14 @@
+﻿<Application x:Class="CountDownDays.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:CountDownDays"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <FontFamily x:Key="DIN">
+            pack://application:,,,/#DIN
+        </FontFamily>
+        <FontFamily x:Key="AliPuHuiTi">
+            pack://application:,,,/#阿里巴巴普惠体 2.0 55 Regular
+        </FontFamily>
+    </Application.Resources>
+</Application>
