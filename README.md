@@ -2,25 +2,25 @@
 
 ## 一、属性设置
 在程序所在的目录下放有配置文件，可以通过修改此文件中前五行的字符实现修改字体大小、颜色、显示位置等参数。属性值不区分大小写。
-（配置文件默认路径“C:\Program Files\CountDownDays\settings.txt”）
+（配置文件名称必须为“settings.txt”）
 ### 1.	字体大小
 配置文件第一行的英语单词用以指定字体大小。
-（1）Min			最小
-（2）Normal		正常（默认）
-（3）Big			大
-（4）Max			特大
+（1）`Min`			最小
+（2）`Normal`		正常（默认）
+（3）`Big`			大
+（4）`Max`			特大
 ### 2.	字体颜色
 配置文件第二行的英语单词用以指定字体颜色。
-（1）White			白色
-（2）Black			黑色
+（1）`White`			白色
+（2）`Black`			黑色
 ### 3.	显示位置
 配置文件第三行的英语单词用以指定窗体的显示位置。
-（1）LeftTop		  左上
-（2）RightTop		  右上
-（3）RightBottom	右下
-（4）LeftBottom 	左下
-（5）Center       屏幕中心
-（6）CenterTop    中上
+（1）`LeftTop`		  左上
+（2）`RightTop`		  右上
+（3）`RightBottom`	右下
+（4）`LeftBottom` 	左下
+（5）`Center`       屏幕中心
+（6）`CenterTop`    中上
 ### 4.	目标日期
 配置文件第四行的字符用以指定目标日期。
 格式为“yyyy/MM/dd”，如“2025/01/01”。
